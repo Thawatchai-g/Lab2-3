@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, th, td {
+          border:0.5px solid black;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>HTML Form Exercise</title>
+</head>
+<body>
+    <h1>เข้าสู่ระบบ</h1>
+    <form action="Lab2-3-link.html">
+        <table>
+            <tr>
+                <th>Username:</th>
+                <th><input type="text" autofocus="autofocus" required></th>
+            </tr>
+            <tr>
+                <th>Password:</th>
+                <th><input type="text" required></th>
+            </tr>
+            <tr>
+                <td colspan="2">กรุณาพิมพ์ตามตัวเลขที่ปรากฏ:<br>1559<br><input type="text" pattern="[1][5][5][9]" required></td>
+            </tr>
+        </table><br>
+        <!--<input type="image" src="logo-login.jpg" alt="Submit" width="60" height="60">-->
+        <button type="submit">
+            <img src="logo-login.jpg" style="width: 60px;height:60px;">
+        </button><br>
+    </form>
+</body>
+</html>
